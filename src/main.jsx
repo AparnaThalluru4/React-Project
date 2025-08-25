@@ -34,11 +34,12 @@ import { ContextDemo } from './context-demo/context-demo.jsx'
 import { FakestoreIndex } from './Fakestore/fakestore-index.jsx'
 import { ReducerDemo } from './components/reducer-demo/reducer-demo.jsx'
 import { PortfolioIndex } from './portfolio/portfolio-index.jsx'
+import { ShoppingIndex } from './shopping/shopping-index.jsx'
 
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-     <PortfolioIndex/>
+     <ShoppingIndex/>
   </StrictMode>,
 )
