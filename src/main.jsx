@@ -30,16 +30,12 @@ import { ControlledDemo } from './controlled-components/datagridCheck.jsx'
 import { ConditionalDemo1 } from './conditional-demo/conditional-demo1.jsx'
 import { ConditionalDemo2 } from './conditional-demo/conditional-demo2.jsx'
 import { UseCapchaEx } from './hooks/useCapcha-ex.jsx'
-import { ContextDemo } from './context-demo/context-demo.jsx'
-import { FakestoreIndex } from './Fakestore/fakestore-index.jsx'
-import { ReducerDemo } from './components/reducer-demo/reducer-demo.jsx'
-import { PortfolioIndex } from './portfolio/portfolio-index.jsx'
-import { ShoppingIndex } from './shopping/shopping-index.jsx'
+import { ExampleIndex } from './example/example-index.jsx'
 
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-     <ShoppingIndex/>
+    <ExampleIndex/>
   </StrictMode>,
 )
