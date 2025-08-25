@@ -30,12 +30,12 @@ import { ControlledDemo } from './controlled-components/datagridCheck.jsx'
 import { ConditionalDemo1 } from './conditional-demo/conditional-demo1.jsx'
 import { ConditionalDemo2 } from './conditional-demo/conditional-demo2.jsx'
 import { UseCapchaEx } from './hooks/useCapcha-ex.jsx'
-import { ExampleIndex } from './example/example-index.jsx'
+import { ShoppingIndex } from './shopping/shopping-index.jsx'
 
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <ExampleIndex/>
+    <ShoppingIndex/>
   </StrictMode>,
 )
