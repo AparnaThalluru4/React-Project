@@ -1,0 +1,20 @@
+
+.section{
+    background-color: rgba(0,0,0,0.6);
+    height: 500px;
+    margin: 60px;
+    font-family: arial;
+    color: white;
+    padding-top: 60px;
+    border-radius: 40px;
+}
+
+.section-title{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.section-subtitle{
+    font-size: 20px;
+
+}

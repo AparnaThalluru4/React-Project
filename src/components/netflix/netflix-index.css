@@ -1,0 +1,5 @@
+.background{
+    background-image: url("/images/netflix.jpg");
+    background-size: cover;
+    height: 100vh;
+}
