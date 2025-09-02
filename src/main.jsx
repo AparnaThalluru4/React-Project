@@ -31,11 +31,12 @@ import { ConditionalDemo1 } from './conditional-demo/conditional-demo1.jsx'
 import { ConditionalDemo2 } from './conditional-demo/conditional-demo2.jsx'
 import { UseCapchaEx } from './hooks/useCapcha-ex.jsx'
 import { ShoppingIndex } from './shopping/shopping-index.jsx'
+import { MeetIndex } from './meetowner/meetIndex.jsx'
 
 
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <ShoppingIndex/>
-  </StrictMode>,
+  
+    <MeetIndex/>
+
 )
